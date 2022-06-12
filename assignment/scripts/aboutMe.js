@@ -14,6 +14,7 @@ let fullName = firstName + lastName;
 console.log( fullName );
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckyNumber = 13;
+
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -33,12 +34,18 @@ let pets = 2;
 let friendsPets = 10;
 // 11 - Add two pets to your `pets` variable
 
+friendsPets += 2;
 
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+// add to friendsPets
+const allowedPets = 3;
+
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
+
+
 
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
@@ -49,6 +56,9 @@ let friendsPets = 10;
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+
+
+
 
 // STRETCH GOALS:
 
