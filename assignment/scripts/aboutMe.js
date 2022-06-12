@@ -23,6 +23,7 @@ console.log("My name is", fullName, "and I think", luckyNumber, "is a winner!" )
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
+
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 
 let food = "pierogi";
@@ -45,11 +46,21 @@ const allowedPets = 3;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 
-
+if( adventurous === true ){
+    console.log("Adventures are great!");
+}
+else{
+console.log("How about we stay home?");
+}
 
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
+if( luckyNumber = 2 && adventurous === true){
+    console.log("Roll the dice!");
+}
+
+
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
