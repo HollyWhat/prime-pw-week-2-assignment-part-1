@@ -86,6 +86,10 @@ else{
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
+
+
+
+
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
@@ -95,4 +99,7 @@ else{
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+adventurous = true ? "Advetures are great!" : "How about we stay home?";
 
+
+// not sure if this was wrtitten correclty?
